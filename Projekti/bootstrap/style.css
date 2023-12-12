@@ -1,0 +1,54 @@
+
+#ekateksti {
+
+    background-color: rgb(68, 83, 78);
+    border-radius: 10px;
+    color: white;
+}
+
+
+
+#ekaneliö{
+    background: rgb(215, 193, 182);
+    border-radius: 10px;
+}
+
+.list-group{
+    background: lightpink;
+}
+
+#tokaneliö{
+    background: rgb(146, 126, 116);
+    border-radius: 10px;
+}
+
+#kolmasneliö{
+    background: rgb(146, 126, 116);
+    border-radius: 10px;
+}
+
+#neljäsneliö{
+    background: rgb(215, 193, 182);
+    border-radius: 10px;
+}
+
+#contact{
+   background: rgb(68, 83, 78);
+   border-radius: 10px;
+   color: white;
+}
+
+footer{
+    background:rgb(133, 160, 151);
+    color: white;
+}
+
+h1, h2, h3, h4 {
+
+    font-family: 'Poiret One', sans-serif;
+
+}
+
+p{
+    font-family: 'Lato', sans-serif;
+}

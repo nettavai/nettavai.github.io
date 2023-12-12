@@ -1,0 +1,353 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #15172b;
+    background-image: url(Cosy-Isolation-Illustration-tubikarts-2.png);
+    background-size:cover ; /* Adjust to 'contain' if needed */
+    background-position: center;
+    height: 900px;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-size: 220%;
+    
+}
+
+
+h1 {
+   
+    font-family: 'Bitter', serif;
+}
+
+h2{
+    color: rgb(192, 85, 24);
+    font-family: 'Bitter', serif;
+}
+nav {
+    background-color: rgb(172, 199, 224);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+    
+}
+
+nav a{
+    color: black;
+    text-decoration: none;
+}
+nav a:hover {
+
+    color: rgb(250, 252, 252);
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+section {
+    width: 48%; /* Two sections per row with a small gap */
+    margin: 1%; /* Adjust for a small gap between sections */
+    box-sizing: border-box; /* Include padding and border in width calculation */
+    background-color: #f4f4f4; /* Add a background color for better visibility */
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 20px;
+    box-shadow:  0.3em 0.3em 1em rgba(136, 135, 135, 0.6);
+}
+
+section img {
+    max-width: 100%; /* Ensure images don't overflow their containers */
+    height: auto; /* Maintain aspect ratio of images */
+    display: block; /* Remove extra spacing below inline images */
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+.book-button{ 
+    text-decoration: none;
+    background: #c23d91;
+    color:white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    /* Selvitä miksi linkki tulee buttonin päälle */
+}
+
+
+.releaselinkki {
+    text-decoration: none;
+    color: #3498db;
+    font-size: 120%;
+    font-weight: 500;
+}
+
+.artist1{
+
+    background-image: url(artists\ 1.png);
+    background-size:cover ; /* Adjust to 'contain' if needed */
+    background-position: center;
+    text-align: center;
+    margin: 10px auto;
+    padding: 5px;
+    width: 100%;
+    height: 100px;
+    border-radius: 5px;
+    
+}
+
+.artist2{
+
+    background-image: url(artist2.png);
+    background-size:cover ; /* Adjust to 'contain' if needed */
+    background-position: center;
+    text-align: center; 
+    margin: 10px auto;
+    padding: 5px;
+    width: 100%;
+    height: 100px;
+    border-radius: 5px;
+    
+}
+
+.artist3{
+
+    background-image: url(artist3.png);
+    background-size:cover ; /* Adjust to 'contain' if needed */
+    background-position: center;
+    text-align: center;
+    margin: 10px auto;
+    padding: 5px;
+    width: 100%;
+    height: 100px;
+    border-radius: 5px;
+    
+}
+
+.artist4{
+
+    background-image: url(latest.png);
+    background-size:cover ; /* Adjust to 'contain' if needed */
+    background-position: center;
+    text-align: center;
+    margin: 10px auto;
+    padding: 5px;
+    width: 100%;
+    height: 100px;
+    border-radius: 5px;
+    
+}
+
+.artist5{
+
+    background-image: url(artist5.png);
+    background-size:cover ; /* Adjust to 'contain' if needed */
+    background-position: center;
+    text-align: center;
+    margin: 10px auto;
+    padding: 5px;
+    width: 100%;
+    height: 100px;
+    border-radius: 5px;
+    
+}
+
+.artist6{
+
+    background-image: url(Dreams.png);
+    background-size:cover ; /* Adjust to 'contain' if needed */
+    background-position: center;
+    text-align: center;
+    margin: 10px auto;
+    padding: 5px;
+    width: 100%;
+    height: 100px;
+    border-radius: 5px;
+    
+}
+
+.artist7{
+
+    background-image: url(artist7.png);
+    background-size:cover ; /* Adjust to 'contain' if needed */
+    background-position: center;
+    text-align: center;
+    margin: 10px auto;
+    padding: 5px;
+    width: 100%;
+    height: 100px;
+    border-radius: 5px;
+    
+}
+
+.artist8{
+
+    background-image: url(artist8.png);
+    background-size:cover ; /* Adjust to 'contain' if needed */
+    background-position: center;
+    text-align: center;
+    margin: 10px auto;
+    padding: 5px;
+    width: 100%;
+    height: 100px;
+    border-radius: 5px;
+    
+}
+
+.artist9{
+
+    background-image: url(artist9.png);
+    background-size:cover ; /* Adjust to 'contain' if needed */
+    background-position: center;
+    text-align: center;
+    margin: 10px auto;
+    padding: 5px;
+    width: 100%;
+    height: 100px;
+    border-radius: 5px;
+    
+}
+
+.artist10{
+
+    background-image: url(artist10.png);
+    background-size:cover ; /* Adjust to 'contain' if needed */
+    background-position: center;
+    text-align: center;
+    margin: 10px auto;
+    padding: 5px;
+    width: 100%;
+    height: 100px;
+    border-radius: 5px;
+    
+}
+
+.eventlinkki{
+
+    text-decoration: none;
+    color: #3498db;
+    font-size: 120%;
+    font-weight: 500;
+}
+
+.workshoplinkki{
+    text-decoration: none;
+    color: #3498db;
+    font-size: 120%;
+    font-weight: 500;
+    margin: 40px;
+    display: block;
+}
+
+p a {
+    background: rgba(18, 21, 49, 0.788);
+    color: #ffffff;
+    text-decoration: none;
+    padding: 2px;
+    border-radius: 5px;
+    font-size: 110%;
+}
+
+.donate-button{ 
+
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    background-color: #3498db; /* Change the background color as needed */
+    color: #fff; /* Text color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+}
+
+#credit {
+    text-decoration: none;
+    color: black;
+    font-size: 150%;
+    margin-top: 5px;
+}
+
+footer {
+    background-color: #15172b;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    
+}
+
+aside {
+    background-image:url(Cosy-Isolation-Illustration-tubikarts-2.png);
+    background-size: 100%; /* Adjust to 'contain' if needed */
+    background-position: top;
+    background-repeat: no-repeat;
+    font-family: 'Bitter', serif;
+    font-size: 150%;
+    padding: 10px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+aside h2{
+
+    color: black;
+}
+aside a {
+    text-decoration: none;
+    color: black;
+    margin-left: 80px;
+    margin-right: 80px;
+    padding: 30px;
+}
+
+aside a:hover {
+
+    color: rgb(250, 252, 252);
+}
+
+
+
+.social-media-links {
+    margin-top: 10px;
+}
+
+.social-media-links h3 {
+    margin-bottom: 5px;
+    text-align: center;
+   
+}
+
+.social-media-links ul {
+    list-style: none; /* Remove list bullets */
+    padding: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+
+    
+}
+
+.social-media-links li {
+    
+    
+}
